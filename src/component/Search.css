@@ -1,0 +1,39 @@
+/* Add these styles in your CSS file or as inline styles in your component */
+
+.search-container {
+
+}
+
+form {
+    text-align: center;
+
+    
+}
+
+.input-field {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+    min-width: 300px;
+    font-size: large;
+    outline: none;
+    color:rgb(70, 71, 68);
+    transition: all;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input-field:focus{
+    border: 2px solid #4CAF50;
+}
+.download-button {
+    padding: 10px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    cursor: pointer;
+}
